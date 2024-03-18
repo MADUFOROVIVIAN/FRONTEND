@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  nav {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover{
+    color: green;
+  }
+  
+  li {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    color: #1bc768;;
+    /* font-weight: bold; */
+  }
+  
+  .btn button {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 50px;
+    background: #1bc768;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
